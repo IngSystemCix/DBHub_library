@@ -5,10 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind({
-    applyBaseStyles: true,
-    nesting: true,
-  })],
+  integrations: [tailwind()],
   site: 'https://dbhub.github.io',
-  base: '/DBHub_library/'
+  base: ''
 });
