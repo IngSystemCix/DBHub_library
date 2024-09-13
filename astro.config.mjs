@@ -8,5 +8,7 @@ export default defineConfig({
   integrations: [tailwind({
     applyBaseStyles: true,
     nesting: true,
-  })]
+  })],
+  site: 'https://dbhub.github.io',
+  base: '/DBHub_library/'
 });
