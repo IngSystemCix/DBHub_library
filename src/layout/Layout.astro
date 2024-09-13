@@ -6,7 +6,7 @@ const { title } = Astro.props as { title: string };
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/DBHub_library/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="generator" content={Astro.generator} />
     
 		<!-- Estilos locales -->
@@ -17,7 +17,7 @@ const { title } = Astro.props as { title: string };
 
 		<title>{title}</title>
 	</head>
-	<body class="w-full h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-green-400 overflow-x-hidden">
+	<body class="w-full h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-green-400 bg-cover overflow-x-hidden">
 		<slot />
 
 		<!-- Flowbite JS -->

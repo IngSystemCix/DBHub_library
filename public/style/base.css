@@ -9,6 +9,8 @@
     @apply w-full h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-green-400 overflow-x-hidden;
     scrollbar-width: thin; /* Ancho del scrollbar */
     scrollbar-color: #4ade80 transparent; /* Color del scrollbar */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0;
   }
 
   body::-webkit-scrollbar {
