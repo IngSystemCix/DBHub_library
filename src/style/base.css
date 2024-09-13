@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body {
+    @apply w-full h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-green-400 overflow-x-hidden;
+    scrollbar-width: thin; /* Ancho del scrollbar */
+    scrollbar-color: #4ade80 transparent; /* Color del scrollbar */
+  }
+
+  body::-webkit-scrollbar {
+    width: 8px; /* Ancho del scrollbar */
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #4ade80; /* Color del scrollbar */
+    border-radius: 4px; /* Bordes redondeados */
+  }
+
+  body::-webkit-scrollbar-track {
+    background: transparent; /* Color del fondo del scrollbar */
+  }
+}
+
+
+@layer components {
+
+}
+
+@layer utilities {
+
+}
